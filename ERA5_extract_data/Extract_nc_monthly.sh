@@ -3,6 +3,8 @@ source ~/.bashrc
 startYear=2022
 endYear=2022
 
+cd /global/home/aimodels/data/ERA5/Data_Analysis_ERA5
+
 for ((year=$startYear; year<=$endYear; year++))
 do
   for ((month=2; month<=10; month++))
